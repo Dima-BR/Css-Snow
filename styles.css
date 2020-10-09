@@ -10,17 +10,7 @@ section{
     position: relative;
     overflow: hidden;
 }
-/* .snow1{
-    background: url(img/snow.png);
-    background-repeat: repeat;
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: animateOne 40s infinite linear;
-    background-size: 400px;
-} */
+
 
 .snow2{
     background: url(img/snow.png);
@@ -31,21 +21,10 @@ section{
     top: 0;
     left: 0;
     animation: animateTwo 30s infinite linear;
-    background-size: 300px;
+    background-size: 200px;
     filter: blur(1px);
 }
 
-/* .snow3{
-    background: url(img/snow.png);
-    background-repeat: repeat;
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: animateThree 10s infinite linear;
-    background-size: 500px;
-} */
 
 @keyframes animateOne{
     0%
@@ -74,13 +53,3 @@ section{
     }
 }
 
-@keyframes animateThree{
-    0%
-    {
-        background-position:0px 100px
-    }
-    100%
-    {
-        background-position:300px 650px
-    }
-}
